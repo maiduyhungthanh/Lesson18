@@ -38,12 +38,13 @@ public class Team {
     }
 
     Random rd = new Random();
-    int gateKeeperSize = 0;
+  
+
+    public void choose1() {
+          int gateKeeperSize = 0;
     int defenderSize = 0;
     int midFieldSize = 0;
     int forwaderSize = 0;
-
-    public void choose1() {
         selectedTeam = new ArrayList<Player>();
         System.out.println("List player: ");
         while (gateKeeperSize < 1) {
@@ -87,6 +88,10 @@ public class Team {
     }
 
     public void choose2() {
+          int gateKeeperSize = 0;
+    int defenderSize = 0;
+    int midFieldSize = 0;
+    int forwaderSize = 0;
         selectedTeam = new ArrayList<Player>();
         System.out.println("List player: ");
         while (gateKeeperSize < 1) {
@@ -130,6 +135,10 @@ public class Team {
     }
 
     public void choose3() {
+          int gateKeeperSize = 0;
+    int defenderSize = 0;
+    int midFieldSize = 0;
+    int forwaderSize = 0;
         selectedTeam = new ArrayList<Player>();
         System.out.println("List player: ");
         while (gateKeeperSize < 1) {

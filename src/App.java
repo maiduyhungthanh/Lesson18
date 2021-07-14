@@ -18,7 +18,8 @@ public class App {
         int i = Integer.valueOf( sc.nextLine());
         switch (i) {
             case 0:
-            System.exit(0);
+                System.exit(0);
+                break;
             case 1:
                 dH.choose1();
                 break;
